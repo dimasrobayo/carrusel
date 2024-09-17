@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="folder-navigation"></div>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carousel-container" style="display: none;">
+        <button id="prev" onclick="prevImage()">&#10094;</button>
+        <img id="carousel-image" src="" alt="Imagen de la galería">
+        <button id="next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <!-- Miniaturas o enlaces de subcarpetas -->
+    <div id="subfolder-navigation"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
